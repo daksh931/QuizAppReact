@@ -11,7 +11,7 @@ export default function Quiz() {
     if (userAnswer.length === questions.length - 1) {
         return (
             <>
-            <div className='flex flex-col  place-items-center '>
+            <div className='flex flex-col justify-center place-items-center '>
                 <img src={quizComplete} className='w-24' />
                 <h2 className='text-2xl'>Quiz Completed</h2>
             </div>
